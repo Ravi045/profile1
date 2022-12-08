@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+body {
+  background-color: #f6f8f8;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+/* ============= Common css ================ */
+
+.main-card{
+    border: none !important;
+}
+.social a {
+    color: #878484;
+}
+
+.social a:hover {
+    color: #0d6efd;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .textcenter {
+    text-align: center !important;
+  }
+
+  .top-to-down {
+    top: 0px !important;
+  }
+
+  .p-1 {
+    padding: 1rem !important;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    .nameSec {
+        height: 215px;
+    }
+  }
+
+.brdr-left {
+  border-left: 2px solid #e6e9ed !important;
+  position: absolute;
+  height: 790px;
+  left: 35px;
+}
+.work {
+  border-left: 3px solid #4a89dc;
+}
+
+.work:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 12px;
+  color: #4a89dc;
+  height: 12px;
+  top: 20px;
+  left: -37px;
+  border: 2px solid;
+  z-index: 2;
+}
+
+.work:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: currentColor;
+  width: 23px;
+  height: 2px;
+  color: #4a89dc;
+  top: 25px;
+  left: -25px;
+  z-index: 1;
+}
+
+.top-to-down {
+  position: relative;
+  top: 23px;
+}
+
+.card-shadow:hover {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.hover-effect:hover {
+  transform: translateY(-2px);
+}
+
+/* ============= Common css ================ */
